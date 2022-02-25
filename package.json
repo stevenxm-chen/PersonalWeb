@@ -1,0 +1,28 @@
+{
+  "name": "personalweb",
+  "version": "1.0.0",
+  "description": "personal web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenxm-chen/PersonalWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenxm-chen/PersonalWeb/issues"
+  },
+  "homepage": "https://github.com/stevenxm-chen/PersonalWeb#readme",
+  "dependencies": {
+    "next": "^12.1.0",
+    "next.js": "^1.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
