@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 const NaviBar = () => {
 
   return (
     <div className = "navi">
       <div className = "bar">
-        <span>about</span>
-        <span>contact</span>
+        <Link href = "/about"><span className = "naviItem">About</span></Link>
+        <Link href = '/'><span className = "naviItem">Contact</span></Link>
       </div>
     </div>
   )
